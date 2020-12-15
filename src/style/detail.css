@@ -1,0 +1,318 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+  background: #ededed;
+  position: relative;
+}
+
+.main {
+  position: relative;
+}
+.main .wrapp {
+  position: relative;
+}
+.main .fixmanu {
+  position: sticky;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fafafa;
+  border-top: 1px solid #e3e3e3;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.04);
+  z-index: 25;
+}
+.main .fixmanu h1 {
+  float: left;
+  color: #333;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 20px;
+  line-height: 20px;
+}
+.main .fixmanu .decive-info {
+  position: relative;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.main .fixmanu .decive-info h2 {
+  width: 150px;
+  float: none;
+  font-size: 12px;
+  color: #9d9d9d;
+  font-weight: 400;
+  margin-left: 92px;
+}
+.main .fixmanu .decive-info h1 {
+  font-size: 100%;
+  font-weight: 400;
+}
+.main .fixmanu .decive-info h1 i {
+  font-style: normal;
+  font-size: 12px;
+}
+.main .fixmanu .decive-info h1 .title {
+  color: #333;
+  float: left;
+  font-weight: 900 !important;
+}
+.main .fixmanu .decive-info h1 .price {
+  float: none;
+  position: relative;
+  margin-left: 15px;
+  color: #d44d44;
+  font-weight: 700;
+}
+.main .fixmanu .bar-btn {
+  display: block;
+  width: 118px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 6px;
+  background-color: #6383c6;
+  background-image: linear-gradient(#6383c6, #4262af);
+  margin-top: -40px;
+  padding: 1px;
+  float: right;
+  font-weight: 700;
+}
+.main .fixmanu .bar-btn a {
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  padding: 2px 0;
+  border-radius: 6px;
+  background-color: #5f7ed7;
+  background-image: linear-gradient(#6f97e5, #527ed9);
+  box-shadow: inset 0 1px 2px #7ea1e8;
+  text-shadow: 0 -1px 0 #4f70b3;
+  color: #fff;
+  transition: none;
+  cursor: pointer;
+}
+.main .fixmanu .bar-white-btn {
+  margin-right: 150px;
+  width: 118px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 6px;
+  background-color: #6383c6;
+  background-image: linear-gradient(#6383c6, #4262af);
+  margin-top: -40px;
+  padding: 1px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #dedede;
+  background-color: #f8f8f8;
+  background-image: linear-gradient(#fbfbfb, #f5f5f5);
+  float: right;
+  font-weight: 700;
+}
+.main .fixmanu .bar-white-btn a {
+  display: block;
+  border-radius: 6px;
+  transition: none;
+  cursor: pointer;
+}
+.main .fixmanu .bar-price {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  color: #d44d44;
+  line-height: 40px;
+  float: right;
+  margin-top: -40px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+.main .fixmanu .bar-price a {
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  padding: 2px 0;
+  border-radius: 6px;
+  background-color: #5f7ed7;
+  background-image: linear-gradient(#6f97e5, #527ed9);
+  box-shadow: inset 0 1px 2px #7ea1e8;
+  text-shadow: 0 -1px 0 #4f70b3;
+  color: #fff;
+  transition: none;
+  cursor: pointer;
+}
+.main .cover {
+  width: 100%;
+  height: 38px;
+  background: #f0f0f0;
+  position: relative;
+}
+.main .cover ul li {
+  float: left;
+  font-size: 14px;
+  line-height: 38px;
+  padding: 0 5px;
+}
+.main .cover ul li a {
+  color: #9b9b9b;
+}
+.main .cover ul li a:hover {
+  color: black;
+}
+.main .cover::after {
+  position: absolute;
+  content: "";
+  display: block;
+  bottom: -4px;
+  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.1);
+  height: 3px;
+  width: 100%;
+  background: url(../images/下载.png) repeat-x;
+}
+.main .product {
+  padding-top: 50px;
+}
+.main .product .left {
+  float: left;
+  height: 800px;
+  width: 50%;
+}
+.main .product .info .title {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.main .product .info .title h1 {
+  font-size: 30px;
+  color: #000;
+  line-height: 1;
+  font-weight: 400;
+}
+.main .product .info .title h2 {
+  color: #999;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.main .product .info .actives, .main .product .info .colorchose, .main .product .info .rom, .main .product .info .instrct {
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+.main .product .info .actives ul, .main .product .info .colorchose ul, .main .product .info .rom ul, .main .product .info .instrct ul {
+  float: left;
+}
+.main .product .info .actives ul li, .main .product .info .colorchose ul li, .main .product .info .rom ul li, .main .product .info .instrct ul li {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.main .product .info .actives span, .main .product .info .colorchose span, .main .product .info .rom span, .main .product .info .instrct span {
+  display: block;
+  float: left;
+  margin: 10px 50px 0 0;
+}
+.main .product .info .colorchose span, .main .product .info .rom span {
+  float: left;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+.main .product .info .colorchose ul, .main .product .info .rom ul {
+  width: 400px;
+}
+.main .product .info .colorchose ul li, .main .product .info .rom ul li {
+  width: auto;
+  display: block;
+  line-height: 1.4;
+  text-align: center;
+  padding: 13px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+}
+.main .product .info .colorchose ul li:nth-of-type(2), .main .product .info .rom ul li:nth-of-type(2) {
+  border-color: #2121af;
+}
+.main .product .info .instrct li em {
+  color: #999;
+  font-size: 12px;
+  font-style: normal;
+}
+.main .product .info .baoxiu {
+  float: right;
+  font-size: 12px;
+  margin: 30px;
+  margin-bottom: 0;
+}
+.main .product .info .baoxiu span {
+  float: left;
+}
+.main .product .info .baoxiu p {
+  float: left;
+  width: 400px;
+  margin-left: 40px;
+  color: #999;
+}
+.main .product .info .baoxiu p a {
+  color: #2121af;
+}
+
+#im {
+  width: 100%;
+}
+#im > img {
+  width: 100%;
+  display: block;
+}
+
+.service {
+  position: fixed;
+  right: 24px;
+  top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  z-index: 999;
+  width: 80px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.service > div {
+  padding: 12px 0px 9px 0px;
+}
+.service > div:hover span, .service > div:hover figure {
+  color: greenyellow !important;
+}
+.service figure {
+  color: #8aad37;
+  font-weight: 700;
+  text-align: center;
+  font-size: 13.5px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.service span {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto 5px;
+  font-size: 36px !important;
+  color: #9b9b9b;
+}
+
+/*# sourceMappingURL=detail.css.map */

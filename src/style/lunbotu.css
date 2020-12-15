@@ -1,0 +1,51 @@
+.czy .lunbo {
+  width: 1218px;
+  height: 554px;
+  margin: 20px auto;
+  position: relative;
+}
+.czy .lunbo ul li {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+.czy .lunbo ul li img {
+  width: 1218px;
+  height: 554px;
+}
+.czy .lunbo ol {
+  position: absolute;
+  left: 540px;
+  bottom: 20px;
+}
+.czy .lunbo ol li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ccc;
+  text-indent: -999em;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.czy .lunbo ol li.active {
+  background: white;
+}
+.czy #left, .czy #right {
+  position: absolute;
+  top: 50%;
+  margin-top: -60px;
+  color: #fff;
+  font-size: 100px;
+  text-decoration: none;
+  opacity: 0;
+}
+.czy #left {
+  left: 20px;
+}
+.czy #right {
+  right: 20px;
+}
+
+/*# sourceMappingURL=lunbotu.css.map */

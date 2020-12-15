@@ -1,0 +1,438 @@
+  html, body {
+    height: 100%;
+    background: #ededed;
+    position: relative;
+  }
+  
+  input {
+    border: 0 !important;
+  }
+  
+  .outside {
+    background: white;
+    background-image: url(../images/dachuizi.png);
+    background-size: 160px;
+    background-position: center 15px;
+    background-repeat: no-repeat;
+    display: block;
+    width: 450px;
+    height: 650px;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    margin-left: -225px;
+    position: absolute;
+    box-shadow: 0 9px 30px -6px rgba(0, 0, 0, 0.2), 0 18px 20px -10px rgba(0, 0, 0, 0.04), 0 18px 20px -10px rgba(0, 0, 0, 0.04), 0 10px 20px -10px rgba(0, 0, 0, 0.04);
+    margin-top: -350px;
+  
+    .title {
+      width: 100%;
+      position: relative;
+      height: 92px;
+      margin: 23px 0 50px;
+      padding: 75px 0 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  
+    h4 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      border-bottom: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      line-height: 20px;
+      height: auto;
+      color: #333;
+      font-weight: 400;
+      font-size: 20px;
+    }
+  
+    .content {
+      padding: 0 40px 22px;
+  
+      .biao {
+        .common {
+          li {
+            clear: both;
+            margin-bottom: 15px;
+            position: relative;
+          }
+  
+          .country {
+            clear: both;
+            margin-bottom: 15px;
+            position: relative;
+  
+            .input {
+              background: #fff;
+              box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset, -1px 0 3px -2px rgba(0, 0, 0, 0.1) inset;
+              border: #ccc solid 1px;
+              border-radius: 6px;
+              font-size: 18px;
+              height: 46px;
+              line-height: 46px;
+              opacity: 0.618;
+  
+              .icon {
+                background: -webkit-linear-gradient(#f8f8f8, #fafafa);
+                border-radius: 6px 0 0 6px;
+                border-right: solid 1px #ccc;
+                box-shadow: 1px 0 3px -1px rgba(0, 0, 0, 0.1);
+                float: left;
+                height: 46px;
+                width: 46px;
+                overflow: hidden;
+  
+                i {
+                  background: url(../images/dialog-input-icons_ff627ad6dc.png);
+                  background-position: -95px 0;
+                  cursor: pointer;
+                  display: block;
+                  height: 46px;
+                  text-indent: -9999em;
+                  width: 46px;
+                }
+              }
+  
+              .cr {
+                display: inline-block;
+                width: 112px;
+                text-align: center;
+                position: relative;
+                left: 3px;
+                font-size: 16px;
+                cursor: default;
+              }
+  
+              .ng {
+                position: absolute;
+                right: 10px;
+                font-size: 15px;
+                display: inline-block;
+                max-width: 76px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                padding-right: 20px;
+                text-align: right;
+                background-image: url(../images/ic_change_7ce7ba3a23.png);
+                background-size: 8px 12px;
+                background-position: center right;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                z-index: 100;
+              }
+            }
+          }
+  
+          .username {
+            clear: both;
+            margin-bottom: 15px;
+            position: relative;
+  
+            .input {
+              background: #fff;
+              box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset, -1px 0 3px -2px rgba(0, 0, 0, 0.1) inset;
+              border: #ccc solid 1px;
+              border-radius: 6px;
+              font-size: 18px;
+              height: 46px;
+              line-height: 46px;
+              opacity: 0.618;
+              position: relative;
+            }
+  
+            .icon {
+              background: -webkit-linear-gradient(#f8f8f8, #fafafa);
+              border-radius: 6px 0 0 6px;
+              border-right: solid 1px #ccc;
+              box-shadow: 1px 0 3px -1px rgba(0, 0, 0, 0.1);
+              float: left;
+              height: 46px;
+              width: 46px;
+              overflow: hidden;
+  
+              i {
+                background: url(../images/dialog-input-icons_ff627ad6dc.png);
+                background-position: 0px 0;
+                cursor: pointer;
+                display: block;
+                height: 46px;
+                text-indent: -9999em;
+                width: 46px;
+              }
+            }
+  
+            .cc {
+              display: inline-block;
+              width: 55px;
+              text-align: center;
+              position: relative;
+              left: 3px;
+  
+              &::before {
+                content: "+";
+                position: relative;
+                top: -1px;
+              }
+            }
+  
+            .place {
+              left: 110px;
+              color: #bebebe;
+              float: left;
+              font-size: 16px;
+              position: absolute;
+              top: 0;
+            }
+  
+            .nameinput {
+              padding-right: 101px;
+              width: 158px;
+              padding-left: 0;
+              -webkit-writing-mode: horizontal-tb !important;
+              text-rendering: auto;
+              letter-spacing: normal;
+              word-spacing: normal;
+              text-transform: none;
+              text-indent: 0px;
+              text-shadow: none;
+              display: inline-block;
+              text-align: start;
+              appearance: textfield;
+              -webkit-rtl-ordering: logical;
+              cursor: text;
+              margin: 0em;
+              font: 400 13.3333px Arial;
+              padding: 1px 2px;
+              border-width: 2px;
+              border-style: inset;
+              border-image: initial;
+            }
+          }
+  
+          .passwrod {
+            clear: both;
+            margin-bottom: 15px;
+            position: relative;
+  
+            .input {
+              background: #fff;
+              box-shadow: 0 3px 5px -4px rgba(0, 0, 0, 0.4) inset, -1px 0 3px -2px rgba(0, 0, 0, 0.1) inset;
+              border: #ccc solid 1px;
+              border-radius: 6px;
+              font-size: 18px;
+              height: 46px;
+              line-height: 46px;
+              opacity: 0.618;
+              position: relative;
+            }
+  
+            .icon {
+              background: -webkit-linear-gradient(#f8f8f8, #fafafa);
+              border-radius: 6px 0 0 6px;
+              border-right: solid 1px #ccc;
+              box-shadow: 1px 0 3px -1px rgba(0, 0, 0, 0.1);
+              float: left;
+              height: 46px;
+              width: 46px;
+              overflow: hidden;
+  
+              i {
+                background: url(../images/dialog-input-icons_ff627ad6dc.png);
+                background-position: -50px 0;
+                cursor: pointer;
+                display: block;
+                height: 46px;
+                text-indent: -9999em;
+                width: 46px;
+              }
+            }
+  
+            .place {
+              color: #bebebe;
+              float: left;
+              font-size: 16px;
+              position: absolute;
+              left: 50px;
+              top: 0;
+            }
+  
+            .nameinput {
+              width: 293px;
+              height: 20px;
+              padding: 12px 12px 12px 15px;
+              -webkit-writing-mode: horizontal-tb !important;
+              text-rendering: auto;
+              letter-spacing: normal;
+              word-spacing: normal;
+              text-transform: none;
+              text-indent: 0px;
+              text-shadow: none;
+              display: inline-block;
+              text-align: start;
+              appearance: textfield;
+              -webkit-rtl-ordering: logical;
+              cursor: text;
+              margin: 0em;
+              font: 400 13.3333px Arial;
+              padding: 1px 2px;
+              border-width: 2px;
+              border-style: inset;
+              border-image: initial;
+            }
+          }
+  
+          .remeber {
+            margin: 15px 5px 25px;
+            height: 20px;
+            clear: both;
+            position: relative;
+            font-weight: 900;
+  
+            .autong {
+              height: 20px;
+              color: rgba(0, 0, 0, 0.4);
+              line-height: 20px;
+            }
+  
+            .right {
+              float: right;
+              font-size: 14px;
+              line-height: 20px;
+              color: skyblue;
+            }
+  
+            .checkbox {
+              position: absolute;
+              top: -4px;
+              left: -2px;
+  
+              a {
+                display: inline-block;
+                font-size: 18px;
+                line-height: 20px;
+                color: rgba(100, 149, 237, 0.7);
+                margin-top: 4px;
+              }
+            }
+          }
+        }
+  
+        .wrapbtn {
+          margin: 24px 0 12px;
+          margin-bottom: 10px;
+          border-radius: 10px;
+          overflow: hidden;
+  
+          .primarybtn {
+            background: #5C89F2;
+            border: 1px solid #3d70ef;
+            box-shadow: none;
+            width: 370px;
+            height: 60px;
+            margin: 0;
+            box-sizing: border-box;
+            opacity: 0.3;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            font-weight: 900;
+            line-height: 60px;
+            font-size: 20px;
+            cursor: pointer;
+          }
+        }
+  
+        .intface {
+          width: 370px;
+          height: 30px;
+          padding-bottom: 10px;
+          border-bottom: 1px black solid;
+          color: rgba(0, 0, 0, 0.4);
+  
+          span {
+            line-height: 30px;
+            font-size: 14px;
+            font-weight: 400;
+            cursor: pointer !important;
+          }
+  
+          .qt {
+            cursor: none !important;
+          }
+  
+          .iconfont:hover {
+            color: blue;
+          }
+  
+          .putong {
+            font-weight: 900;
+            margin-left: 140px;
+  
+            &:hover {
+              color: cornflowerblue;
+            }
+          }
+        }
+  
+        .tongyi {
+          margin-top: 15px;
+          text-align: center;
+          font-weight: 900;
+          line-height: 30px;
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.4);
+  
+          a {
+            color: rgba(100, 149, 237, 0.7);
+  
+            &:hover {
+              color: #6495ed;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  footer {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -185px;
+    width: 370px;
+    height: 50px;
+    text-align: center;
+  
+    span {
+      height: 28px;
+      line-height: 28px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.4);
+    }
+  
+    .icp {
+      color: #5C89F2;
+      cursor: pointer;
+  
+      &:hover {
+        color: #6495ed;
+      }
+    }
+  }
+  
+  .yz {
+    position: absolute;
+    top: 0;
+    left: 280px;
+    color: red;
+  }

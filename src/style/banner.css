@@ -1,0 +1,168 @@
+.pa {
+  padding-top: 25px; }
+  .pa .banner {
+    height: 550px;
+    width: 100%;
+    background: pink;
+    border-radius: 10px; }
+  .pa .activities-wrap {
+    margin-top: 25px;
+    height: 200px;
+    background: plum;
+    border-radius: 10px;
+    overflow: hidden; }
+    .pa .activities-wrap img {
+      display: block;
+      float: left;
+      width: 25%;
+      box-sizing: border-box;
+      height: 100%; }
+      .pa .activities-wrap img:hover {
+        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
+
+.hots h5 {
+  margin-left: 25px;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 60px;
+  color: #666; }
+.hots .head {
+  border-radius: 10px;
+  margin-top: 25px;
+  display: block;
+  position: relative;
+  background: #fafafa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+.hots .hotgoods {
+  width: 100%;
+  height: 430px;
+  border-radius: 10px;
+  overflow: auto; }
+  .hots .hotgoods::-webkit-scrollbar {
+    width: 600px;
+    height: 10px; }
+  .hots .hotgoods::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #bbb4b4; }
+  .hots .hotgoods::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #ededed; }
+  .hots .hotgoods ul {
+    width: 200%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden; }
+    .hots .hotgoods ul li {
+      background: white;
+      box-sizing: border-box;
+      float: left;
+      height: 100%;
+      width: 12.5%;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      text-align: center; }
+      .hots .hotgoods ul li img {
+        padding: 45px 0 20px 0;
+        display: block;
+        width: 216px;
+        height: 216px;
+        margin: 0 auto;
+        border: 0; }
+      .hots .hotgoods ul li h3 {
+        line-height: 1.2;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0 8px;
+        color: #333; }
+      .hots .hotgoods ul li h5 {
+        padding: 15px 12px 0;
+        font-size: 12px;
+        color: #999;
+        line-height: 1.2;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 15px 12px 0 12px; }
+      .hots .hotgoods ul li span {
+        display: block;
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bolder;
+        color: #d44d44;
+        padding-top: 45px; }
+
+.R2 {
+  margin-top: 25px; }
+  .R2 header {
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    background: #fafafa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    .R2 header h5 {
+      margin-left: 25px;
+      font-weight: bolder;
+      font-size: 18px;
+      line-height: 60px;
+      color: #666; }
+  .R2 .peijian {
+    width: 100%;
+    height: 860px; }
+    .R2 .peijian .maskul {
+      float: left; }
+      .R2 .peijian .maskul li {
+        box-sizing: border-box;
+        text-align: center;
+        float: left;
+        width: 305px;
+        height: 430px;
+        background: white;
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.1); }
+        .R2 .peijian .maskul li img {
+          display: block;
+          width: 216px;
+          height: 216px;
+          margin: 0 auto;
+          padding: 45px 0 20px 0; }
+        .R2 .peijian .maskul li h3 {
+          line-height: 1.2;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          font-size: 14px;
+          font-weight: 700;
+          margin: 0 8px;
+          color: #333; }
+        .R2 .peijian .maskul li h5 {
+          padding: 15px 12px 0;
+          font-size: 12px;
+          color: #999;
+          line-height: 1.2;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden; }
+        .R2 .peijian .maskul li span {
+          display: block;
+          font-family: Arial;
+          font-size: 18px;
+          font-weight: bolder;
+          color: #d44d44;
+          padding-top: 45px; }
+        .R2 .peijian .maskul li:hover {
+          background: rgba(0, 0, 0, 0.001); }
+      .R2 .peijian .maskul .mask {
+        float: left;
+        height: 50%;
+        width: 50%; }
+        .R2 .peijian .maskul .mask img {
+          height: 100%;
+          width: 100%;
+          display: block;
+          border: 0;
+          padding: 0; }
+
+/*# sourceMappingURL=banner.css.map */
