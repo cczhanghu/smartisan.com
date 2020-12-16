@@ -10,12 +10,12 @@
   width: 210px;
   height: 280px;
   padding: 6px;
-  border: 1px solid rgba(192, 192, 192, 0.9);
+  border: 1px solid rgba(192, 192, 192, 0.1);
   float: left;
   margin: 10px 8px;
 }
 .list ul li p {
-  color: #666;
+  color: black;
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -24,7 +24,7 @@
   color: red;
 }
 .list ul li:hover {
-  background-color: #666;
+  background-color: pink;
 }
 
 /*# sourceMappingURL=list.css.map */

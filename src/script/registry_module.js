@@ -1,6 +1,3 @@
-import './jQuery.js';
-import './jquery.md5.js';
-//注册js
 let reg1 = /(^1[3-9]\d{9}$)/;
 //手机号验证
 let reg2 = /^.{6,16}$/;
